@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\source\\rd\\thirdparty\\countdownlatch\\countdownlatch.cpp",
+        "Source": "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\source\\rd\\thirdparty\\countdownlatch\\countdownlatch.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\rd\\definitions.h",
+            "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\rd\\definitions.h",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\chrono",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\yvals_core.h",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\vcruntime.h",
@@ -67,7 +67,7 @@
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\type_traits",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\utility",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\xtimec.h",
-            "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\source\\rd\\thirdparty\\countdownlatch\\countdownlatch.hpp",
+            "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\source\\rd\\thirdparty\\countdownlatch\\countdownlatch.hpp",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\cinttypes",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\inttypes.h",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\mutex",

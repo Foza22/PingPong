@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\scheduler\\synchronousscheduler.cpp",
+        "Source": "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\scheduler\\synchronousscheduler.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\rd\\definitions.h",
-            "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\scheduler\\synchronousscheduler.h",
-            "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\scheduler\\base\\ischeduler.h",
+            "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\intermediate\\build\\win64\\unrealeditor\\development\\rd\\definitions.h",
+            "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\scheduler\\synchronousscheduler.h",
+            "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\scheduler\\base\\ischeduler.h",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\functional",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\yvals_core.h",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\vcruntime.h",
@@ -101,8 +101,8 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\math.h",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\vcruntime_startup.h",
             "d:\\visual studio\\vc\\tools\\msvc\\14.33.31629\\include\\xthreads.h",
-            "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\rd_framework_export.h",
-            "d:\\projects\\pingpong\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\util\\guards.h"
+            "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\rd_framework_export.h",
+            "d:\\projects\\pingpong1\\plugins\\developer\\riderlink\\source\\rd\\src\\rd_framework_cpp\\src\\main\\util\\guards.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

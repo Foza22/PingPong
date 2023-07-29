@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Ball.generated.h"
 
+enum class EColors : uint8;
 class USphereComponent;
 
 UCLASS()
@@ -16,6 +17,16 @@ class PINGPONG_API ABall : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ABall();
+
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+	virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
+
+	UFUNCTION()
+	void ScoreGoal(EColors Color);
+	
+	void Reactivate(bool bInstant);
 
 protected:
 	// Called when the game starts or when spawned
@@ -32,13 +43,19 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent* Mesh;
-	
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float TimeToReactivate = 3.f;
+
+	UPROPERTY(Replicated)
 	FVector Velocity;
-	
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
 
 	void MoveBall(float DeltaSeconds);
+
 	void MakeVelocity();
+
+	FVector InitialLocation;
+
+private:
+	FTimerHandle FReactivateBallTimerHandle;
 };

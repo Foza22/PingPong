@@ -4,23 +4,19 @@
 #include "GoalVolume.h"
 
 #include "Ball.h"
+#include "Utils.h"
 
 void AGoalVolume::NotifyActorBeginOverlap(AActor* OtherActor)
 {
 	Super::NotifyActorBeginOverlap(OtherActor);
 
-	if (OtherActor->IsA(ABall::StaticClass()))
+	if (ABall* Ball = Cast<ABall>(OtherActor))
 	{
-		switch (PlayerColor)
-		{
-		case EColors::RED:
-			
-			break;
-		case EColors::BLUE:
-			
-			break;
-		default:
-			break;
-		}
+		OnScored.Broadcast(PlayerColor);
 	}
+}
+
+void AGoalVolume::AssignColor(EColors Color)
+{
+	PlayerColor = Color;
 }

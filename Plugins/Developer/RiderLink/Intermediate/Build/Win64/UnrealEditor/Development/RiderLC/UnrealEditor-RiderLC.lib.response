@@ -6,6 +6,6 @@
 /NAME:"UnrealEditor-RiderLC.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Projects\PingPong\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLC\RiderLC.cpp.obj"
-"D:\Projects\PingPong\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLC\Default.rc2.res"
-/OUT:"D:\Projects\PingPong\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLC\UnrealEditor-RiderLC.lib"
+"D:\Projects\PingPong1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLC\RiderLC.cpp.obj"
+"D:\Projects\PingPong1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLC\Default.rc2.res"
+/OUT:"D:\Projects\PingPong1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderLC\UnrealEditor-RiderLC.lib"

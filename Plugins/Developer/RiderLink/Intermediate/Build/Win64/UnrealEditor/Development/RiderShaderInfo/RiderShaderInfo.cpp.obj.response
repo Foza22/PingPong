@@ -1,4 +1,4 @@
-D:\Projects\PingPong\Plugins\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.cpp
+D:\Projects\PingPong1\Plugins\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.cpp
 /I .
 /I Runtime
 /I Runtime\TraceLog\Public
@@ -7,7 +7,7 @@ D:\Projects\PingPong\Plugins\Developer\RiderLink\Source\RiderShaderInfo\RiderSha
 /I Runtime\Json\Public
 /I Runtime\RenderCore\Public
 /I Runtime\RHI\Public
-/I D:\Projects\PingPong\Plugins\Developer\RiderLink\Source
+/I D:\Projects\PingPong1\Plugins\Developer\RiderLink\Source
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I "D:\Visual Studio\VC\Tools\MSVC\14.33.31629\INCLUDE"
@@ -15,9 +15,9 @@ D:\Projects\PingPong\Plugins\Developer\RiderLink\Source\RiderShaderInfo\RiderSha
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"D:\Projects\PingPong\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\Definitions.h"
-/Fo"D:\Projects\PingPong\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\RiderShaderInfo.cpp.obj"
-/sourceDependencies D:\Projects\PingPong\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\RiderShaderInfo.cpp.dep.json
+/FI"D:\Projects\PingPong1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\Definitions.h"
+/Fo"D:\Projects\PingPong1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\RiderShaderInfo.cpp.obj"
+/sourceDependencies D:\Projects\PingPong1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\RiderShaderInfo.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
