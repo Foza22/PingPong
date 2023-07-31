@@ -4,9 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Utils.h"
 #include "Ball.generated.h"
 
-enum class EColors : uint8;
 class USphereComponent;
 
 UCLASS()

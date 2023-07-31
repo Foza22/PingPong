@@ -13,6 +13,7 @@ void AGoalVolume::NotifyActorBeginOverlap(AActor* OtherActor)
 	if (ABall* Ball = Cast<ABall>(OtherActor))
 	{
 		OnScored.Broadcast(PlayerColor);
+		GEngine->AddOnScreenDebugMessage(3, 3, FColor::Red, TEXT("Scored"));
 	}
 }
 
